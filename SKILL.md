@@ -43,7 +43,7 @@ description: 将主题、文章、剪藏或已有笔记整理成适合 Obsidian 
 | 常青笔记、常青卡片、知识卡片、概念卡片 | [七节常青卡片](references/evergreen-card.md) | `03-Resources/Evergreen/` |
 | 心智模型标签、添加模型标签、思维模型分类、芒格模型、mental models、跨学科连接 | [芒格多元思维模型标签](references/mental-model-tags.md) | 原文件 |
 | 从 0 到 1 搭建 Obsidian、生成文件夹、参考我的笔记规划目录、重建 Obsidian 结构 | [Vault 文件夹引导](references/vault-bootstrap.md) | 当前 Vault 根目录 |
-| 首页、首页工作台、Home、Dashboard、知识管理首页 | [首页工作台](references/home-dashboard.md) | `00-Home.md` 或用户指定路径 |
+| 首页、首页工作台、Home、Dashboard、知识管理首页 | [首页工作台](references/home-dashboard.md) | 已有主页(`index.md`/`Dashboard.md`)则合并；否则 `00-Home.md` |
 | KOS、kos.css、Obsidian 样式、知识操作系统视觉 | [KOS CSS](references/kos-css.md) | Vault 根目录 `kos.css` |
 | 分析、决策、困惑、系统守则、分析 XX | [Obsidian 笔记系统守则](references/system-rules.md) | 对话分析，不默认写入 |
 
@@ -71,7 +71,7 @@ description: 将主题、文章、剪藏或已有笔记整理成适合 Obsidian 
 | --- | --- | --- |
 | “我刚开始用 Obsidian” | 认识 Vault → 扫描 → 最小结构预览 | 简单的起步方案 |
 | “帮我整理文件夹” | 扫描 → 归纳职责 → 预览 → 确认 → 创建 | 只创建确认过的缺失目录 |
-| “做一个首页/工作台” | 读取目录和索引 → 设计入口 → 预览 → 确认 → 写入 | `00-Home.md` 或指定首页 |
+| “做一个首页/工作台” | 定位已有主页 → 读取目录和索引 → 设计入口 → 预览 → 确认 → 写入 | 已有主页合并，否则 `00-Home.md` |
 | “记下这篇文章” | 提炼主题 → 先输出笔记 → 确认是否保存 | 普通笔记或常青卡片 |
 | “做成常青笔记” | 七节模板 → 双链检查 → 心智模型打标 → 保存 | 可复用知识卡片 |
 | “美化我的 Obsidian” | 检查主题/CSS → 提案 → 差异预览 → 确认 → 写入 | 根目录 `kos.css` |
