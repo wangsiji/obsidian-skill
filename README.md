@@ -1,11 +1,11 @@
-# 秋秋 Obsidian 笔记助手
+# Obsidian 笔记助手
 
 一个面向个人知识库的 Obsidian skill。它陪你从第一次打开 Vault 开始，逐步建立文件夹、首页、笔记、链接、标签和视觉样式。
 
 调用方式：
 
 ```text
-使用 $qiuqiu-obsidian-notes，……
+使用 $obsidian-skill，……
 ```
 
 ## 如果你是第一次使用 Obsidian
@@ -23,7 +23,7 @@
 可以直接从这句话开始：
 
 ```text
-使用 $qiuqiu-obsidian-notes，我是 Obsidian 新手，请先扫描我的 Vault，告诉我现状和最小可行的文件夹结构，只输出规划，不要创建。
+使用 $obsidian-skill，我是 Obsidian 新手，请先扫描我的 Vault，告诉我现状和最小可行的文件夹结构，只输出规划，不要创建。
 ```
 
 ## 适合做什么
@@ -88,7 +88,7 @@ tags:
 
 检查现有主题和 CSS snippets 后，生成或更新 Vault 根目录的 `kos.css`。默认使用 Obsidian CSS 变量、低饱和色彩和 `.kos-*` 前缀，并提供差异预览，不静默覆盖已有样式。
 
-### 6. 秋秋笔记系统守则
+### 6. Obsidian 笔记系统守则
 
 分析决策和困惑时，遵循：
 
@@ -101,7 +101,7 @@ tags:
 直接使用：
 
 ```text
-使用 $qiuqiu-obsidian-notes，分析我是否应该接这个新项目。
+使用 $obsidian-skill，分析我是否应该接这个新项目。
 ```
 
 ## 直接复制使用
@@ -109,25 +109,25 @@ tags:
 ### 制作常青卡片
 
 ```text
-使用 $qiuqiu-obsidian-notes，把“机会成本”制作成一张 Obsidian 常青笔记卡片，先不保存。
+使用 $obsidian-skill，把“机会成本”制作成一张 Obsidian 常青笔记卡片，先不保存。
 ```
 
 ### 从文章整理笔记
 
 ```text
-使用 $qiuqiu-obsidian-notes，把下面这篇文章整理成常青卡片并保存：[粘贴文章]
+使用 $obsidian-skill，把下面这篇文章整理成常青卡片并保存：[粘贴文章]
 ```
 
 ### 给已有笔记打标签
 
 ```text
-使用 $qiuqiu-obsidian-notes，给“03-Resources/Evergreen/机会成本.md”添加芒格心智模型标签，只修改 YAML。
+使用 $obsidian-skill，给“03-Resources/Evergreen/机会成本.md”添加芒格心智模型标签，只修改 YAML。
 ```
 
 ### 规划并创建文件夹
 
 ```text
-使用 $qiuqiu-obsidian-notes，参考我的 Obsidian 笔记，从 0 到 1 规划文件夹结构，先只输出预览，不要创建。
+使用 $obsidian-skill，参考我的 Obsidian 笔记，从 0 到 1 规划文件夹结构，先只输出预览，不要创建。
 ```
 
 确认后：
@@ -139,13 +139,13 @@ tags:
 ### 生成首页工作台
 
 ```text
-使用 $qiuqiu-obsidian-notes，参考我的 Obsidian 笔记生成首页工作台，先输出 Markdown 预览，不要写入。
+使用 $obsidian-skill，参考我的 Obsidian 笔记生成首页工作台，先输出 Markdown 预览，不要写入。
 ```
 
 ### 设计 KOS 样式
 
 ```text
-使用 $qiuqiu-obsidian-notes，参考我的首页和笔记风格设计 kos.css，先输出 CSS 和差异说明，不要写入。
+使用 $obsidian-skill，参考我的首页和笔记风格设计 kos.css，先输出 CSS 和差异说明，不要写入。
 ```
 
 ## 安全规则
@@ -167,7 +167,7 @@ tags:
 ## 文件结构
 
 ```text
-qiuqiu-obsidian-notes/
+obsidian-skill/
 ├── SKILL.md
 ├── README.md
 ├── agents/

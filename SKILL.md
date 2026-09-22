@@ -1,9 +1,9 @@
 ---
-name: qiuqiu-obsidian-notes
+name: obsidian-skill
 description: 将主题、文章、剪藏或已有笔记整理成适合 Obsidian 的结构化笔记，并安全创建、更新、链接 Markdown 文件、生成从 0 到 1 的文件夹结构、首页工作台、KOS 样式及添加芒格多元思维模型标签。适用于 Obsidian 笔记、常青笔记、知识卡片、双向链接、YAML 属性、知识网络、心智模型标签、KOS、首页工作台、CSS 主题、参考现有笔记搭建文件夹或材料归档场景。
 ---
 
-# 秋秋 Obsidian 笔记助手
+# Obsidian 笔记助手
 
 陪一个 Obsidian 新手从“打开一个空 Vault”走到“拥有可导航、可积累、可复习的个人知识系统”。先降低复杂度，再逐步增加文件夹、首页、常青卡片、标签和样式。
 
@@ -32,7 +32,7 @@ description: 将主题、文章、剪藏或已有笔记整理成适合 Obsidian 
 - **从 0 到 1 搭建 Obsidian**：先读取现有笔记和目录，生成文件夹结构预览；只有用户确认后才创建缺失文件夹。
 - **首页工作台**：根据 Vault 的真实目录和常用笔记，规划或生成一个可导航的首页 Markdown 工作台。
 - **KOS 样式**：规划或更新 Vault 根目录的 `kos.css`，只覆盖用户确认的样式，不破坏已有 CSS。
-- **系统守则分析**：用户说“分析 XX”或提出决策、困惑时，读取 [秋秋笔记系统守则](references/system-rules.md)，按健康 → 生活 → 价值的优先级给判断。
+- **系统守则分析**：用户说“分析 XX”或提出决策、困惑时，读取 [Obsidian 笔记系统守则](references/system-rules.md)，按健康 → 生活 → 价值的优先级给判断。
 - **同名文件已存在**：不得静默覆盖；若用户没有明确要求更新，先展示差异并询问。
 - **用户是新手或说“从零开始”**：从“认识现状 → 最小结构”开始，不直接生成复杂插件方案。
 
@@ -45,7 +45,7 @@ description: 将主题、文章、剪藏或已有笔记整理成适合 Obsidian 
 | 从 0 到 1 搭建 Obsidian、生成文件夹、参考我的笔记规划目录、重建 Obsidian 结构 | [Vault 文件夹引导](references/vault-bootstrap.md) | 当前 Vault 根目录 |
 | 首页、首页工作台、Home、Dashboard、知识管理首页 | [首页工作台](references/home-dashboard.md) | `00-Home.md` 或用户指定路径 |
 | KOS、kos.css、Obsidian 样式、知识操作系统视觉 | [KOS CSS](references/kos-css.md) | Vault 根目录 `kos.css` |
-| 分析、决策、困惑、系统守则、分析 XX | [秋秋笔记系统守则](references/system-rules.md) | 对话分析，不默认写入 |
+| 分析、决策、困惑、系统守则、分析 XX | [Obsidian 笔记系统守则](references/system-rules.md) | 对话分析，不默认写入 |
 
 所有写入任务同时读取 [Obsidian 笔记标准](references/obsidian-standards.md)。文件夹引导任务必须读取 [Vault 文件夹引导](references/vault-bootstrap.md)；常青卡片还必须在正文完成后显式调用 [芒格多元思维模型标签](references/mental-model-tags.md) 的完整判断流程，再把结果写入 `tags`。不得新增 `mental_models` 等重复属性，也不得由常青卡片流程自行猜标签。
 
